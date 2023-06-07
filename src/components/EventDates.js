@@ -10,12 +10,14 @@ const EventDates = (props) => {
 
 
   return (
-    <div className="font">
+    <div>
+    <div className="font-event-box">
       {/* need to add CSS to each line here to get them to display in their individual boxes */}
-      <div>{props.date}</div>
-      <div>{props.description}</div>
-      <div>{price}</div>
+      <div className="font-event-description">{props.date}</div>
+      <div className="font-event-description">{props.description}</div>
+      <div className="font-event-description">{price}</div>
       <button onClick={clickHandler} id="button">Click to Book</button>
+    </div>
     </div>
   );
 };
