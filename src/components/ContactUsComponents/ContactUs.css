@@ -1,16 +1,30 @@
-.form{
-    font-family: 'Dosis';
-    font-size: 30px;
-    padding-left: 30px;
+.form {
+  font-family: "Dosis";
+  font-size: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 textarea {
-    resize: none;
-   margin-top: 15px;
+  margin-top: 15px;
+  width: 20rem;
+  max-width: 100%;
+  border-style: solid;
+}
+
+.submitButton {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Dosis";
+  border-radius: 5px;
 }
 
 input {
-    font-size: 28px;
-    font-weight:500;
-    font-family: 'Dosis';
+  width: 20rem;
+  max-width: 100%;
+}
+
+.contactpara {
+  font-family: "Dosis";
+  font-size: 25px;
 }

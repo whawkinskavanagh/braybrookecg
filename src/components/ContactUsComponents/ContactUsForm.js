@@ -2,28 +2,26 @@ import React from "react";
 import "./ContactUs.css";
 
 const ContactUsForm = () => {
+
+  const nameChangeHandler = (event) => {console.log(event.target.value)}
+
+
   return (
     <div className="form">
       <form>
         <div>
-          <label>
-            Name: 
-            <input type="text" name="name" />
-          </label>
+          <label> Name: </label>
+            <input type="text" name="name" onChange={nameChangeHandler}/>
         </div>
         <div>
-        <label>
-          Email: 
-          <input type="text" name="email" />
-        </label>
+          <label> Email: </label>
+            <input type="text" name="email" />
         </div>
         <div>
-            <label for="textbox">
-                Detail:
+          <label for="textbox"> Detail: </label>
             <textarea type="text" name="textbox" rows="5"></textarea>
-            </label>
         </div>
-        <input type="submit" value="Submit" />
+        <button className="submitButton">Submit</button>
       </form>
     </div>
   );
