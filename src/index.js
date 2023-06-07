@@ -1,12 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "typeface-dosis";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Events from "./pages/Events";
+import AboutUs from "./pages/AboutUs";
+import Contactus from "./pages/ContactUs";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="events" element={<Events />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="contactus" element={<Contactus/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     <App />
   </React.StrictMode>
 );
