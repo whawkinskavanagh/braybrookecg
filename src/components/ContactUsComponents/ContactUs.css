@@ -1,4 +1,18 @@
 .form{
     font-family: 'Dosis';
     font-size: 30px;
+    padding-left: 30px;
+}
+
+.name-email-box{
+    border-radius: 20px;
+}
+
+textarea {
+    resize: none;
+   margin-top: 15px;
+}
+
+input {
+    font-size: 25px;
 }

@@ -6,19 +6,22 @@ const ContactUsForm = () => {
     <div className="form">
       <form>
         <div>
-          <label>
-            Name:
+          <label className="name-email-box">
+            Name: 
             <input type="text" name="name" />
           </label>
         </div>
         <div>
         <label>
-          Email:
+          Email: 
           <input type="text" name="email" />
         </label>
         </div>
         <div>
-            <textarea></textarea>
+            <label for="textbox">
+                Detail:
+            <textarea type="text" name="textbox" rows="5"></textarea>
+            </label>
         </div>
         <input type="submit" value="Submit" />
       </form>
