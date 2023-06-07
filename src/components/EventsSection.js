@@ -1,4 +1,5 @@
 import EventDates from "./EventDates"
+import tote from '../totebag.png'
 
 const EventsSection = (props) => {
     return (

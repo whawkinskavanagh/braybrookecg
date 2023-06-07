@@ -78,16 +78,36 @@
   height: 5vmin;
 }
 
-.font {
-  display: flex;
-  justify-content: space-between;
+.font-event-box {
   font-size: 30px;
+  display: flex;
   border-style: solid;
+  width: 46em;
+  height: 3em;
   border-radius: 10px;
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
   font-family: 'Dosis';
+}
+
+.font-event-description{
+  display: flex;
+  width: 10em;
+  justify-content: space-between;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#button{
+  font-family: 'Dosis';
+  font-size: 30px;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightblue;
+  width: 10em;
 }
 
 .main-nav {
@@ -107,13 +127,7 @@
   font-family: Dosis;
 }
 
-#button{
-  font-family: 'Dosis';
-  font-size: 20px;
-  border-radius: 10px;
-  color: blue;
-  background-color: lightblue;
-}
+
 
 /* Link{
   text-decoration: none;
