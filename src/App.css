@@ -78,9 +78,11 @@
   height: 5vmin;
 }
 
-.font-event-box {
+.container {
   font-size: 30px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border-style: solid;
   width: 46em;
   height: 3em;
@@ -88,17 +90,19 @@
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 20px;
   font-family: 'Dosis';
 }
 
 .font-event-description{
   display: flex;
   width: 10em;
-  justify-content: space-between;
   border-style: solid;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 400;
+  background-color: lightgray;
 }
 
 #button{
@@ -170,4 +174,8 @@ padding-left: 30px;
 padding-right: 60px;
 line-height: 75px;
 text-align: center;
+}
+
+h2{
+  font-family: 'Dosis';
 }

@@ -6,7 +6,7 @@ const ContactUsForm = () => {
     <div className="form">
       <form>
         <div>
-          <label className="name-email-box">
+          <label>
             Name: 
             <input type="text" name="name" />
           </label>

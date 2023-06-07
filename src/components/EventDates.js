@@ -11,7 +11,7 @@ const EventDates = (props) => {
 
   return (
     <div>
-    <div className="font-event-box">
+    <div className="container">
       {/* need to add CSS to each line here to get them to display in their individual boxes */}
       <div className="font-event-description">{props.date}</div>
       <div className="font-event-description">{props.description}</div>

@@ -27,14 +27,9 @@ const eventdetails = [
 const Events = () => {
   return (
     <div>
-      <h1>Events Page</h1>
+      <h1 style={{fontFamily: 'Dosis'}}>Events Page</h1>
+      <h2>To join in an event, just click on "Click to Book"</h2>
       <EventsSection eventinfo={eventdetails}/>
-      <p>
-        MAYBE ADD SOME MORE STUFF ON THIS PAGE.... ADD BUTTONS / STATE EVENTS TO
-        EACH EVENT<br></br>
-        <br></br>
-        TIDY UP THE CSS FOR THE EVENTS
-      </p>
     </div>
   );
 };
