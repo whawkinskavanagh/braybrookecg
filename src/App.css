@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 35vmin;
+  height: 45vmin;
   pointer-events: none;
   border-radius: 20px;
   margin-right: 15px;
@@ -40,7 +40,6 @@
 .Nav-Text {
   font-size: 60px;
   font-family: Dosis;
-  font-style: oblique;
   text-align: center;
 }
 
@@ -51,7 +50,6 @@
   font-size: 30px;
   font-family: Dosis;
   border-style: none;
-  background-color: lightgray;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -149,4 +147,13 @@
   justify-content: space-evenly;
   font-family: 'Dosis';
   font-size: 30px ;
+}
+
+.home-flex-container {
+display: flex;
+background-color: lightgray;
+padding-left: 30px;
+padding-right: 60px;
+line-height: 75px;
+text-align: center;
 }
