@@ -6,7 +6,7 @@ import AboutCerys from "../components/AboutCerys";
 const AboutUs = () => {
   return (
     <div>
-      <h1>A bit about Cerys and Wanda</h1>
+      <h1 style={{fontFamily:'Dosis'}}>About Cerys and Wanda</h1>
         <div className="wanda-div">
           <AboutWanda />
           <Wanda />
