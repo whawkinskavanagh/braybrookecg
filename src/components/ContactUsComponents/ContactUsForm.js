@@ -17,6 +17,9 @@ const ContactUsForm = () => {
           <input type="text" name="email" />
         </label>
         </div>
+        <div>
+            <textarea></textarea>
+        </div>
         <input type="submit" value="Submit" />
       </form>
     </div>
